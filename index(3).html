@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadística Poblacional de Bolivia</title>
+    <style>
+        :root {
+            --primary: #1f3c88;
+            --secondary: #f4b41a;
+            --background: #f5f7fb;
+            --text-dark: #2c2c2c;
+            --text-light: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), #162b5c);
+            color: var(--text-light);
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: #ffffff;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 1rem;
+            gap: 2rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: var(--secondary);
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 2.5rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+
+        section h2 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            border-left: 6px solid var(--secondary);
+            padding-left: 0.75rem;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .card {
+            background: linear-gradient(135deg, #ffffff, #f0f2f8);
+            border-radius: 10px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .card h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .card span {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--secondary);
+        }
+
+        footer {
+            background-color: var(--primary);
+            color: var(--text-light);
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Estadística Poblacional de Bolivia</h1>
+    <p>Análisis demográfico y social de la población boliviana</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#introduccion">Introducción</a></li>
+        <li><a href="#indicadores">Indicadores</a></li>
+        <li><a href="#distribucion">Distribución</a></li>
+        <li><a href="#fuentes">Fuentes</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <section id="introduccion">
+        <h2>Introducción</h2>
+        <p>
+            La estadística poblacional permite comprender la evolución demográfica de Bolivia,
+            analizando variables como el crecimiento poblacional, la densidad, la urbanización
+            y la estructura por edades. Esta información es fundamental para la planificación
+            social, económica y territorial del país.
+        </p>
+    </section>
+
+    <section id="indicadores">
+        <h2>Indicadores Clave</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Población Total</h3>
+                <span>+12 M</span>
+                <p>Habitantes estimados</p>
+            </div>
+            <div class="card">
+                <h3>Crecimiento Anual</h3>
+                <span>1.3%</span>
+                <p>Tasa promedio</p>
+            </div>
+            <div class="card">
+                <h3>Esperanza de Vida</h3>
+                <span>71 años</span>
+                <p>Promedio nacional</p>
+            </div>
+            <div class="card">
+                <h3>Urbanización</h3>
+                <span>70%</span>
+                <p>Población urbana</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="distribucion">
+        <h2>Distribución Poblacional</h2>
+        <p>
+            La población boliviana se concentra principalmente en los departamentos del eje
+            central: La Paz, Santa Cruz y Cochabamba. Sin embargo, existe una diversidad
+            demográfica importante entre regiones del altiplano, valles y llanos orientales.
+        </p>
+    </section>
+
+    <section id="fuentes">
+        <h2>Fuentes de Información</h2>
+        <ul>
+            <li>Instituto Nacional de Estadística (INE)</li>
+            <li>Censos Nacionales de Población y Vivienda</li>
+            <li>Organismos internacionales de estadística</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2025 Estadística Poblacional de Bolivia | Diseño moderno y educativo</p>
+</footer>
+
+</body>
+</html>
